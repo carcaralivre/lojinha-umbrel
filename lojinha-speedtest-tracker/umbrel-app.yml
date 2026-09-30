@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: lojinha-speedtest-tracker
+category: utilities
+name: "Speedtest Tracker"
+version: "1.0.0"
+tagline: ""
+icon: "https://ui-avatars.com/api/?name=speedtest-tracker&size=256&background=2D2D2B&color=FAF8F4&bold=true"
+description: ""
+developer: "alexjustesen"
+website: "https://hub.docker.com/r/alexjustesen/speedtest-tracker"
+dependencies: []
+repo: ""
+support: "https://hub.docker.com/r/alexjustesen/speedtest-tracker"
+port: 5100
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: ""
+submitter: "alexjustesen"
+submission: ""
