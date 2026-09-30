@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: lojinha-speedtest-tracker22_web_1
+      APP_PORT: 80
+
+  web:
+    image: ghcr.io/alexjustesen/speedtest-tracker:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/speed2:/config

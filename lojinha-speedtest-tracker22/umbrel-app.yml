@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: lojinha-speedtest-tracker22
+category: utilities
+name: "Speedtest Tracker2"
+version: "1.15.0"
+tagline: "Speedtest Tracker is a self-hosted application that monitors the performance and"
+icon: "https://github.com/alexjustesen.png?size=256"
+description: "Speedtest Tracker is a self-hosted application that monitors the performance and uptime of your internet connection."
+developer: "alexjustesen"
+website: "https://speedtest-tracker.dev/"
+dependencies: []
+repo: "https://github.com/alexjustesen/speedtest-tracker"
+support: "https://github.com/alexjustesen/speedtest-tracker"
+port: 5110
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: ""
+submitter: "alexjustesen"
+submission: ""
