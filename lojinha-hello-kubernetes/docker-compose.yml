@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: lojinha-hello-kubernetes_web_1
+      APP_PORT: 80
+
+  web:
+    image: paulbouwer/hello-kubernetes:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/aaaaa:/data

@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: lojinha-hello-kubernetes
+category: utilities
+name: "Hello Kubernetes"
+version: "1.10.1"
+tagline: "Provides a demo app to deploy to a Kubernetes cluster. It displays a message, th"
+icon: "https://github.com/paulbouwer.png?size=256"
+description: "Provides a demo app to deploy to a Kubernetes cluster. It displays a message, the name of the pod and details of the node it's deployed to."
+developer: "paulbouwer"
+website: "https://github.com/paulbouwer/hello-kubernetes"
+dependencies: []
+repo: "https://github.com/paulbouwer/hello-kubernetes"
+support: "https://github.com/paulbouwer/hello-kubernetes"
+port: 5120
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: ""
+submitter: "paulbouwer"
+submission: ""
